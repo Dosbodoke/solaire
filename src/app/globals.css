@@ -1,1 +1,56 @@
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('../fonts/BrandonGrotesque-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('../fonts/GalanoGrotesque-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('../fonts/GalanoGrotesque-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url('../fonts/GalanoGrotesque-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque Alt';
+  src: url('../fonts/GalanoGrotesqueAlt-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 @import "tailwindcss";
+
+@layer utilities {
+  .font-brandon {
+    font-family: 'Brandon Grotesque', sans-serif;
+  }
+
+  .font-galano {
+    font-family: 'Galano Grotesque', sans-serif;
+  }
+
+  .font-galano-alt {
+    font-family: 'Galano Grotesque Alt', sans-serif;
+  }
+}
